@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.h1,.h2{
+text-align: center;
+	font-family: Gabriela, Georgia, serif;
+}
+h3{
+	font-family: Gabriela, Georgia, serif;
+	letter-spacing: 5px;
+}
+
+body {
+  background-color: #222;
+  background-image: url("../images/atwood2.jpg");
+font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.col-4{
+font-family: 'Montserrat', sans-serif;
+}
+
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  background-color: #f2efef;
+}
+
+
+.margin-top15 {
+  margin-top: 15px;
+}
+
+.margin-bottom15 {
+  margin-bottom: 15px;
+}
+
+.margin-right15 {
+  margin-right: 15px;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+@media (max-width: 575px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.table{
+	background-color:#bfbfbf
+}
